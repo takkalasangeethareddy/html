@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Paragraph</title>
+</head>
+
+<body>
+    
+    T.Sangeetha
+    <br>1602-17-737-102
+    <p>Here is a first paragraph of text.</p>
+    <p>Here is a second paragraph of text.</p>
+    <p>Here is a third paragraph of text.</p>
+    <p>Vasavi College of Engineering,Department of IT Web Technologies Lab</p>
+    <p>Vasavi College of Engineering,<br>Department of IT<br> Web Technologies Lab</p>
+    <p align="center">B.E.3/4 IT Section-B</p>
+</body>
+
+</html>
