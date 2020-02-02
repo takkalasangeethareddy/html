@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML TABLES</title>
+    <meta charset="utf-8">
+    <style>
+        table.center {
+             width="50%";
+             align="center";
+        }
+        th{
+            height:100px;
+        }
+        th,td{
+            padding:25px;
+        }
+        table,
+        th,
+        td {
+            border: 1px solid yellow;
+            background-color: pink;
+
+    </style>
+</head>
+
+<body style=text-align: "center">
+
+
+
+    <table>
+        <caption>
+            <h1>Student Marks</h1>
+        </caption>
+        <tr>
+            <th>Subject Name</th>
+            <th>Student Name</th>
+            <th>Roll No</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td rowspan="2" style="text-align:center">WT</td>
+            <td>Ramesh</td>
+            <td>7001</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>7002</td>
+            <td>75</td>
+        </tr>
+        <tr>
+            <td>Sum</td>
+            <td colspan="3">Total Marks</td>
+        </tr>
+    </table>
+
+</body>
